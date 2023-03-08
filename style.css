@@ -166,3 +166,36 @@ a:hover {
   padding: 10px;
   font-size: 20px;
 }
+
+.skill-board > .html {
+  background-color: red;
+  height: 10px;
+  width: 60%;
+  margin-left: 20px;
+}
+
+.skill-board > .css {
+  background-color: red;
+  height: 10px;
+  width: 50%;
+  margin-left: 20px;
+}
+
+.skill-board > .javascript {
+  background-color: red;
+  height: 10px;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.skill-board > .react {
+  background-color: red;
+  height: 10px;
+  width: 30%;
+  margin-left: 20px;
+}
+
+.skill-board p {
+  margin-left: 20px;
+  font-size: 20px;
+}
