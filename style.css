@@ -49,7 +49,6 @@ a:hover {
   font-weight: bold;
   transition: 0.3s;
 }
-
 /* dashboard */
 
 .dashboard {
@@ -99,16 +98,6 @@ a:hover {
   font-weight: 200;
   font-size: 20px;
   font-style: italic;
-}
-
-/* RECENT WORKS  */
-.recent-menu {
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  font-weight: 700;
-  color: #666464;
-  text-align: right;
-  margin-top: 100px;
 }
 
 /* footer */
@@ -173,7 +162,7 @@ a:hover {
 }
 .skill-board > .skill-1 > .html {
   background-color: red;
-  height: 10px;
+  height: 20px;
   width: 60%;
   margin-left: 20px;
   margin-top: 20px;
@@ -187,7 +176,7 @@ a:hover {
 }
 .skill-board > .skill-2 > .css {
   background-color: red;
-  height: 10px;
+  height: 20px;
   width: 50%;
   margin-left: 20px;
   margin-top: 20px;
@@ -201,7 +190,7 @@ a:hover {
 }
 .skill-board > .skill-3 > .javascript {
   background-color: red;
-  height: 10px;
+  height: 20px;
   width: 40%;
   margin-left: 20px;
   margin-top: 20px;
@@ -215,7 +204,7 @@ a:hover {
 }
 .skill-board > .skill-4 > .react {
   background-color: red;
-  height: 10px;
+  height: 20px;
   width: 30%;
   margin-left: 20px;
   margin-top: 20px;
@@ -253,5 +242,9 @@ a:hover {
   font-weight: bold;
   font-size: 20px;
 }
-
+.skills > .introduce .skill-board > div div:hover {
+  width: 0%;
+  transition: 5s;
+  background-color: white;
+}
 /* aboutme */
