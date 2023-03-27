@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 li {
@@ -55,6 +56,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin-top: 100px;
+  white-space: nowrap;
 }
 
 .korean-comment {
@@ -108,6 +110,7 @@ a:hover {
   align-items: center;
   margin-bottom: 200px;
   margin-top: 270px;
+  white-space: nowrap;
 }
 
 .contact {
@@ -223,6 +226,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin-top: 150px;
+  white-space: nowrap;
 }
 .Explanation span {
   text-align: center;
